@@ -15,10 +15,10 @@ permissions:
 
 env:
   NODE_VERSION: "20"
-  FE_REPO: "find-my-item/FMI-FE" # ← 실제 owner/repo 로 교체
+  FE_REPO: "finditem/FI-FE"
   FE_TARGET_DIR: "src/utils/tokens" # ← FE에서 둘 위치
   PR_BRANCH: "chore/update-design-tokens"
-  COMMIT_MSG: "chore(tokens): sync from FMI-DS [skip ci]"
+  COMMIT_MSG: "chore(tokens): sync from FI-DS [skip ci]"
 
 jobs:
   build-and-pr:
@@ -93,9 +93,9 @@ jobs:
           token: ${{ secrets.FE_REPO_TOKEN }}
           branch: ${{ env.PR_BRANCH }}
           base: develop
-          title: "chore(tokens): sync from FMI-DS"
+          title: "chore(tokens): sync from FI-DS"
           body: |
-            자동 동기화 — FMI-DS → FMI-FE
+            자동 동기화 — FI-DS → FI-FE
             - Style Dictionary 산출물 업데이트
           labels: "design-tokens, 🤖 automated"
           commit-message: ${{ env.COMMIT_MSG }}
