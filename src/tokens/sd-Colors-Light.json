@@ -1,0 +1,56 @@
+{
+  "Labels - Vibrant": {
+    "Secondary": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "#999999"
+    },
+    "Primary": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "#333333"
+    },
+    "Quaternary": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "#d9d9d9"
+    },
+    "Tertiary": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "#bfbfbf"
+    }
+  },
+  "Accents": {
+    "Red": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "#ff383c"
+    }
+  }
+}

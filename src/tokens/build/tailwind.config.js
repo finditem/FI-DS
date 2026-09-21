@@ -5,6 +5,15 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      labelsVibrant: {
+        secondary: "#999999",
+        primary: "#333333",
+        quaternary: "#d9d9d9",
+        tertiary: "#bfbfbf"
+      },
+      accents: {
+        red: "#ff383c"
+      },
       color: {
         cyan: {
           0: "#ffffff",
@@ -58,7 +67,7 @@ module.exports = {
           100: "#fef4e6",
           200: "#fee6c6",
           300: "#ffd49c",
-          400: "#ffc06e",
+          400: "#ffc642",
           500: "#ff9200",
           600: "#d47800",
           700: "#d17600",
@@ -117,18 +126,21 @@ module.exports = {
         },
         flatGreen: {
           0: "#f6fffc",
-          50: "#e8fff6",
-          100: "#d6ffef",
-          200: "#bbffe4",
-          300: "#8cface",
-          400: "#48dba1",
-          500: "#1eb87b",
-          600: "#0ea267",
-          700: "#059159",
-          800: "#037246",
-          900: "#015634",
-          950: "#013822",
-          1000: "#00120b"
+          12: "#f7fffa",
+          25: "#eefff6",
+          50: "#e3fcee",
+          75: "#d6f8e1",
+          100: "#c2f1d4",
+          200: "#98e3bd",
+          300: "#6ed5a7",
+          400: "#46c691",
+          500: "#0aa874",
+          600: "#00b76e",
+          700: "#009e53",
+          800: "#00753e",
+          900: "#004c29",
+          950: "#002817",
+          1000: "#00110a"
         },
         violet: {
           0: "#ffffff",
@@ -151,19 +163,22 @@ module.exports = {
           600: "#152343"
         },
         glassGreen: {
-          0: "rgba(246, 255, 252, 0.7)",
-          50: "rgba(232, 255, 246, 0.7)",
-          100: "rgba(214, 255, 239, 0.7)",
-          200: "rgba(187, 255, 228, 0.7)",
-          300: "rgba(140, 250, 206, 0.7)",
-          400: "rgba(72, 219, 161, 0.7)",
+          0: "rgba(246, 255, 252, 0.9)",
+          12: "rgba(247, 255, 250, 0.9)",
+          25: "rgba(238, 255, 246, 0.9)",
+          50: "rgba(227, 252, 238, 0.9)",
+          75: "rgba(214, 248, 225, 0.9)",
+          100: "rgba(194, 241, 212, 0.9)",
+          200: "rgba(152, 227, 189, 0.9)",
+          300: "rgba(110, 213, 167, 0.9)",
+          400: "rgba(70, 198, 145, 0.7)",
           500: "rgba(30, 184, 123, 0.7)",
-          600: "rgba(14, 162, 103, 0.7)",
-          700: "rgba(5, 145, 89, 0.7)",
-          800: "rgba(3, 114, 70, 0.7)",
-          900: "rgba(1, 86, 52, 0.7)",
-          950: "rgba(1, 56, 34, 0.7)",
-          1000: "rgba(0, 18, 11, 0.7)"
+          600: "rgba(0, 183, 110, 0.7)",
+          700: "rgba(0, 158, 83, 0.7)",
+          800: "rgba(0, 117, 62, 0.7)",
+          900: "rgba(0, 76, 41, 0.7)",
+          950: "rgba(0, 40, 23, 0.7)",
+          1000: "rgba(0, 17, 10, 0.7)"
         },
         glassGray: {
           0: "rgba(255, 255, 255, 0.7)",
@@ -181,11 +196,36 @@ module.exports = {
           950: "rgba(19, 20, 22, 0.7)",
           1000: "rgba(0, 0, 0, 0.7)"
         },
+        yellow: {
+          500: "#fee500"
+        },
+        tansparnt: {
+      "white_4": "rgba(255, 255, 255, 0.04)",
+      "white_8": "rgba(255, 255, 255, 0.08)",
+      "white_12": "rgba(255, 255, 255, 0.12)"
+        },
+        transparent: {
+      "white_4": "rgba(255, 255, 255, 0.04)",
+      "white_8": "rgba(255, 255, 255, 0.08)",
+      "white_12": "rgba(255, 255, 255, 0.12)"
+        },
+        brick: {
+          50: "#fbe8e9",
+          100: "#ffcbc1",
+          200: "#ffa996",
+          300: "#ff876c",
+          400: "#ff6b4c",
+          500: "#ff512f",
+          600: "#fc4928",
+          700: "#ec4725",
+          800: "#dd4020",
+          900: "#be391c"
+        },
         gray: {
           0: "#ffffff"
         },
         green: {
-          500: "#1eb87b"
+          500: "#0aa874"
         }
       },
       value: {
@@ -228,7 +268,13 @@ module.exports = {
             pressed: "#e4e4e4",
             default: "#f5f5f5",
             enteredSelected: "#f5f5f5",
-            disabled: "#d9d9d9"
+            disabled: "#e4e4e4",
+        "disabled_2": "#e4e4e4",
+        "pressed_2": "#e4e4e4",
+        "focused_2": "#f5f5f5",
+        "default_2": "#f5f5f5",
+        "enteredSelected_2": "#f5f5f5",
+        "hover_2": "#f5f5f5"
           },
           normal: {
             default: "#ffffff",
@@ -236,115 +282,235 @@ module.exports = {
             pressed: "#f5f5f5",
             hover: "#ffffff",
             enteredSelected: "#ffffff",
-            disabled: "#e4e4e4"
+            disabled: "#e4e4e4",
+        "pressed_2": "#f5f5f5",
+        "disabled_2": "#e4e4e4",
+        "focused_2": "#ffffff",
+        "enteredSelected_2": "#ffffff",
+        "hover_2": "#ffffff",
+        "default_2": "#ffffff"
+          },
+          subtle: {
+            default: "rgba(245, 245, 245, 0.7)",
+            hover: "rgba(245, 245, 245, 0.7)",
+            focused: "rgba(245, 245, 245, 0.7)",
+            enteredSelected: "#f5f5f5",
+            pressed: "#e4e4e4",
+            disabled: "rgba(228, 228, 228, 0.7)",
+        "pressed_2": "#e4e4e4",
+        "disabled_2": "rgba(228, 228, 228, 0.7)",
+        "focused_2": "rgba(245, 245, 245, 0.7)",
+        "enteredSelected_2": "#f5f5f5",
+        "hover_2": "rgba(245, 245, 245, 0.7)",
+        "default_2": "rgba(245, 245, 245, 0.7)"
           }
         },
         brand: {
           subtle: {
-            enteredSelected: "#f7fbff",
-            focused: "#eaf2fe",
-            hover: "#eaf2fe",
-            default: "#f7fbff",
-            disabled: "#eaf2fe",
-            pressed: "#cde1fe"
+            enteredSelected: "#e3fcee",
+            focused: "#c2f1d4",
+            hover: "#c2f1d4",
+            default: "#d6f8e1",
+            disabled: "#e3fcee",
+            pressed: "#c2f1d4",
+        "focused_2": "#c2f1d4",
+        "hover_2": "#c2f1d4",
+        "default_2": "#eefff6",
+        "enteredSelected_2": "#e3fcee",
+        "pressed_2": "#c2f1d4",
+        "disabled_2": "#e3fcee",
+        "default_3": "#eefff6"
           },
           normal: {
-            pressed: "#0054d1",
-            hover: "#005eeb",
-            default: "#1a75ff",
-            enteredSelected: "#3385ff",
-            focused: "#005eeb",
-            disabled: "#cde1fe"
+            pressed: "rgba(0, 158, 83, 0.7)",
+            hover: "rgba(0, 183, 110, 0.7)",
+            default: "rgba(30, 184, 123, 0.7)",
+            enteredSelected: "rgba(70, 198, 145, 0.7)",
+            focused: "rgba(0, 183, 110, 0.7)",
+            disabled: "rgba(152, 227, 189, 0.9)",
+        "enteredSelected_2": "rgba(70, 198, 145, 0.7)",
+        "disabled_2": "rgba(152, 227, 189, 0.9)",
+        "default_2": "rgba(30, 184, 123, 0.7)",
+        "focused_2": "rgba(0, 183, 110, 0.7)",
+        "hover_2": "rgba(0, 183, 110, 0.7)",
+        "pressed_2": "rgba(0, 158, 83, 0.7)"
+          },
+          strong: {
+            default: "#009e53",
+            hover: "#00753e",
+            focused: "#00753e",
+            enteredSelected: "#009e53",
+            pressed: "#00753e",
+            disabled: "#46c691"
           }
-        },
-        layout: {
-          disabled: "#d9d9d9",
-          pressed: "#e4e4e4",
-          enteredSelected: "#ffffff",
-          focused: "#ffffff",
-          hover: "#f5f5f5",
-          default: "#ffffff"
         },
         neutralInversed: {
           normal: {
             enteredSelected: "#525252",
-            hover: "#d9d9d9",
-            preesed: "#cfcfcf",
+            hover: "#f5f5f5",
+            preesed: "#e4e4e4",
             disabled: "#e4e4e4",
-            default: "#ffffff",
-            focused: "#d9d9d9"
+            default: "#f5f5f5",
+            focused: "#f5f5f5",
+        "default_2": "#f5f5f5",
+        "disabled_2": "#e4e4e4",
+        "preesed_2": "#e4e4e4",
+        "enteredSelected_2": "#525252",
+        "hover_2": "#f5f5f5",
+        "focused_2": "#f5f5f5",
+            pressed: "#e4e4e4"
+          },
+          strong: {
+            disabled: "rgba(255, 255, 255, 0.04)",
+            preesed: "rgba(255, 255, 255, 0.08)",
+            enteredSelected: "rgba(255, 255, 255, 0.12)",
+            default: "rgba(255, 255, 255, 0.04)",
+            focused: "rgba(255, 255, 255, 0.08)",
+            hover: "rgba(255, 255, 255, 0.08)",
+        "disabled_2": "rgba(255, 255, 255, 0.04)",
+        "enteredSelected_2": "rgba(255, 255, 255, 0.12)",
+        "focused_2": "rgba(255, 255, 255, 0.08)",
+        "hover_2": "rgba(255, 255, 255, 0.08)",
+        "default_2": "rgba(255, 255, 255, 0.04)",
+        "preesed_2": "rgba(255, 255, 255, 0.08)",
+            pressed: "rgba(255, 255, 255, 0.08)"
           }
+        },
+        accent: {
+          kakao: "#fee500",
+          foundItem: "#ebfbf1",
+          lostItem: "#fdf1ed",
+      "foundItem_2": "#eaf2fe",
+      "lostItem_2": "#fef4e6",
+      "kakao_2": "#fee500",
+      "lostItem2": "#ffefad",
+          location: "#e6e6f9"
         }
       },
       fg: {
         layout: {
           body: {
-            hover: "#5d5d5d",
             default: "#787878",
-            pressed: "#787878",
-            focused: "#5d5d5d",
-            enteredSelected: "#525252",
-            disabled: "#cfcfcf"
+        "default_2": "#787878"
           },
           header: {
-            disabled: "#9d9d9d",
-            pressed: "#363636",
-            focused: "#000000",
-            hover: "#000000",
-            enteredSelected: "#000000",
-            default: "#363636"
+            default: "#363636",
+        "default_2": "#363636"
           }
         },
         neutralInversed: {
           normal: {
             disabled: "#cfcfcf",
             pressed: "#9d9d9d",
-            hover: "#5d5d5d",
-            default: "#9d9d9d",
-            focused: "#5d5d5d",
-            enteredSelected: "#ffffff"
+            hover: "#000000",
+            default: "#5d5d5d",
+            focused: "#000000",
+            enteredSelected: "#ffffff",
+        "pressed_2": "#9d9d9d",
+        "disabled_2": "#cfcfcf",
+        "enteredSelected_2": "#ffffff",
+        "default_2": "#5d5d5d",
+        "focused_2": "#000000",
+        "hover_2": "#000000"
           },
           strong: {
-            default: "#f5f5f5"
+            default: "#cfcfcf",
+            disabled: "#9d9d9d",
+            pressed: "#d9d9d9",
+            enteredSelected: "#ffffff",
+            focused: "#d9d9d9",
+            hover: "#d9d9d9",
+        "default_2": "#f5f5f5"
           }
         },
         neutral: {
           normal: {
-            placeholder: "#9d9d9d",
+            placeholder: "#787878",
             focused: "#000000",
             hover: "#000000",
             disabled: "#9d9d9d",
             default: "#5d5d5d",
             preesed: "#9d9d9d",
-            enteredSelected: "#000000"
+            enteredSelected: "#000000",
+        "placeholder_2": "#9d9d9d",
+        "focused_2": "#000000",
+        "default_2": "#5d5d5d",
+        "preesed_2": "#9d9d9d",
+        "disabled_2": "#9d9d9d",
+        "hover_2": "#000000",
+        "enteredSelected_2": "#000000",
+            pressed: "#9d9d9d"
           },
           strong: {
             preesed: "#9d9d9d",
             enteredSelected: "#000000",
             default: "#5d5d5d",
-            placeholder: "#adadad",
+            placeholder: "#787878",
             disabled: "#9d9d9d",
             focused: "#000000",
-            hover: "#000000"
+            hover: "#000000",
+        "preesed_2": "#9d9d9d",
+        "hover_2": "#000000",
+        "default_2": "#5d5d5d",
+        "enteredSelected_2": "#000000",
+        "disabled_2": "#9d9d9d",
+        "focused_2": "#000000",
+        "placeholder_2": "#9d9d9d",
+            pressed: "#9d9d9d"
           }
         },
         brand: {
           subtle: {
-            pressed: "#69a5ff",
-            enteredSelected: "#0066ff",
-            default: "#0066ff",
-            focused: "#0054d1",
-            hover: "#0054d1",
-            disabled: "#b8d4ff"
+            pressed: "#98e3bd",
+            enteredSelected: "#f6fffc",
+            default: "#f6fffc",
+            focused: "#f6fffc",
+            hover: "#f6fffc",
+            disabled: "#c2f1d4",
+        "disabled_2": "#98e3bd",
+        "pressed_2": "#6ed5a7",
+        "enteredSelected_2": "#0aa874",
+        "focused_2": "#00b76e",
+        "hover_2": "#00b76e",
+        "default_2": "#0aa874"
           },
           normal: {
-            disabled: "#69a5ff",
-            enteredSelected: "#ffffff",
-            focused: "#ffffff",
-            hover: "#ffffff",
-            default: "#1eb87b",
-            pressed: "#b8d4ff"
+            disabled: "#98e3bd",
+            enteredSelected: "#0aa874",
+            focused: "#00b76e",
+            hover: "#00b76e",
+            default: "#0aa874",
+            pressed: "#6ed5a7",
+        "default_2": "#f6fffc",
+        "disabled_2": "#c2f1d4",
+        "pressed_2": "#98e3bd",
+        "focused_2": "#f6fffc",
+        "hover_2": "#f6fffc",
+        "enteredSelected_2": "#f6fffc"
+          },
+          strongUseThis: {
+            default: "#009e53",
+            hover: "#00753e",
+            focused: "#00753e",
+            enteredSelected: "#00b76e",
+            pressed: "#009e53",
+            disabled: "#0aa874"
+          },
+          strong: {
+            default: "#009e53",
+            hover: "#00753e",
+            focused: "#00753e",
+            enteredSelected: "#009e53",
+            pressed: "#00753e",
+            disabled: "#0aa874"
           }
+        },
+        accent: {
+          lostItem: "#ff9200",
+          foundItem: "#4f95ff",
+      "lostItem_2": "#ff9200",
+      "foundItem_2": "#4f95ff",
+          localInfo: "#dd4020"
         }
       },
       border: {
@@ -355,44 +521,98 @@ module.exports = {
             hover: "#adadad",
             pressed: "#cfcfcf",
             disabled: "#cfcfcf",
-            default: "#cfcfcf"
+            default: "#cfcfcf",
+        "pressed_2": "#cfcfcf",
+        "focused_2": "#adadad",
+        "hover_2": "#adadad",
+        "default_2": "#cfcfcf",
+        "enteredSelected_2": "#9d9d9d",
+        "disabled_2": "#cfcfcf"
           },
           strong: {
-            pressed: "#b8d4ff",
+        "enteredSelected_2": "#69a5ff",
+        "focused_2": "#69a5ff",
+        "hover_2": "#b8d4ff",
+        "default_2": "#cfcfcf",
+        "pressed_2": "#b8d4ff",
+        "disabled_2": "#cfcfcf",
             enteredSelected: "#69a5ff",
-            disabled: "#cfcfcf",
             focused: "#69a5ff",
             hover: "#b8d4ff",
-            default: "#cfcfcf"
+            default: "#cfcfcf",
+            pressed: "#b8d4ff",
+            disabled: "#cfcfcf"
           }
         },
         divider: {
-          default: "#d9d9d9"
+          default: "#d9d9d9",
+      "default_2": "#d9d9d9",
+      "default_3": "#e4e4e4"
         },
         brand: {
           subtle: {
-            pressed: "#69a5ff",
-            hover: "#b8d4ff",
-            focused: "#b8d4ff",
-            default: "#cde1fe",
-            disabled: "#cde1fe",
-            enteredSelected: "#69a5ff"
+        "enteredSelected_2": "#69a5ff",
+        "focused_2": "#b8d4ff",
+        "default_2": "#cde1fe",
+        "pressed_2": "#69a5ff",
+        "disabled_2": "#cde1fe",
+        "hover_2": "#b8d4ff",
+            default: "#d6f8e1",
+            hover: "#c2f1d4",
+            focused: "#c2f1d4",
+            enteredSelected: "#e3fcee",
+            pressed: "#c2f1d4",
+            disabled: "#e3fcee"
+          },
+          normal: {
+            default: "rgba(30, 184, 123, 0.7)",
+            hover: "rgba(0, 183, 110, 0.7)",
+            focused: "rgba(0, 183, 110, 0.7)",
+            enteredSelected: "rgba(70, 198, 145, 0.7)",
+            pressed: "rgba(0, 158, 83, 0.7)",
+            disabled: "rgba(152, 227, 189, 0.9)",
+        "default_2": "rgba(30, 184, 123, 0.7)",
+        "hover_2": "rgba(0, 183, 110, 0.7)",
+        "focused_2": "rgba(0, 183, 110, 0.7)",
+        "enteredSelected_2": "rgba(70, 198, 145, 0.7)",
+        "pressed_2": "rgba(0, 158, 83, 0.7)",
+        "disabled_2": "rgba(152, 227, 189, 0.9)"
           }
         }
       },
-      bg: {
-        lnb: "#001536",
-        none: {
-          400: "#42547e",
-          500: "#293b62",
-          600: "#152343"
-        },
-        navigation: "#ffffff",
-        content: "#ffffff"
-      },
       system: {
-        success: "#1eb87b",
-        warning: "#ff4242"
+        success: "#00b76e",
+        warning: "#ff4242",
+        toastSuccess: "#6ed5a7",
+        toastWarning: "#ffc642",
+    "toastSuccess_3": "#46c691",
+    "toastWarning_3": "#ffc642",
+    "warning_3": "#ff4242",
+    "success_3": "#00b76e",
+        bookmark: "#ffc642",
+        favorite: "#ff6363",
+        unselected: "#adadad",
+        announcement: "#ff9200",
+        report: "#ff6363"
+      },
+      bg: {
+    "layout_1depth": "#ffffff",
+        toast: "rgba(93, 93, 93, 0.7)",
+    "layout_2depth": "#f5f5f5",
+        dimTransparent: "rgba(0, 0, 0, 0.5)",
+        dimOpaque: "#363636",
+    "layout_1depth_2": "#ffffff",
+    "toast_2": "rgba(93, 93, 93, 0.7)",
+    "dimOpaque_2": "#363636",
+    "layout_2depth_2": "#f5f5f5",
+    "dimTransparent_2": "rgba(120, 120, 120, 0.1)",
+    "dimTransparent_3": "rgba(120, 120, 120, 0.1)",
+        layoutBrand: "#eefff6",
+        notificationBlue: "#4f95ff",
+        notificationGrey: "#5d5d5d",
+        notificationYellow: "#ffc642",
+        notificationBrand: "#0aa874",
+    "layout_3depth": "#e4e4e4"
       },
       spacing: {
         padding: {
@@ -458,11 +678,11 @@ module.exports = {
     "fontsize_800": 32
       },
       radius: {
-    "radius_500": 20,
-    "radius_300": 12,
+    "radius_600": 24,
+    "radius_400": 16,
     "radius_2500": 100,
-    "radius_200": 8,
-    "cRadius_100": 4
+    "radius_250": 10,
+    "radius_100": 4
       }
     },
   },

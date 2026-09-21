@@ -1,218 +1,813 @@
 {
   "[Fill]": {
     "Neutral": {
-      "Strong !!!": {
+      "Strong": {
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.25}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.25}"
         },
         "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.50}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.25}"
         },
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.25}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Flat-Gray.100}"
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
         }
       },
       "Normal": {
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.0}"
         },
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.0}"
         },
         "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.25}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.0}"
         },
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.0}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.50}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.0}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.0}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.0}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.0}"
+        }
+      },
+      "Subtle": {
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Gray.25}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Gray.25}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Gray.25}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Gray.50}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Gray.50}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Gray.25}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Gray.25}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Gray.25}"
         }
       }
     },
     "Brand": {
       "Subtle": {
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.12}"
+          "$value": "{color.Flat-Green.50}"
         },
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.25}"
+          "$value": "{color.Flat-Green.100}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.25}"
+          "$value": "{color.Flat-Green.100}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.12}"
+          "$value": "{color.Flat-Green.75}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.25}"
+          "$value": "{color.Flat-Green.50}"
         },
         "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.50}"
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Default 2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.25}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.50}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.50}"
+        },
+        "Default 3": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.25}"
         }
       },
       "Normal": {
         "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.700}"
+          "$value": "{color.Glass-Green.700}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.600}"
+          "$value": "{color.Glass-Green.600}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.400}"
+          "$value": "{color.Glass-Green.500}"
         },
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.300}"
+          "$value": "{color.Glass-Green.400}"
         },
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.600}"
+          "$value": "{color.Glass-Green.600}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.50}"
+          "$value": "{color.Glass-Green.200}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.400}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.200}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.500}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.600}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.600}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.700}"
         }
-      }
-    },
-    "Layout -": {
-      "Disabled": {
-        "$type": "color",
-        "$value": "{color.Flat-Gray.100}"
       },
-      "Pressed": {
-        "$type": "color",
-        "$value": "{color.Flat-Gray.50}"
-      },
-      "Entered (+Selected)": {
-        "$type": "color",
-        "$value": "{color.Flat-Gray.0}"
-      },
-      "Focused": {
-        "$type": "color",
-        "$value": "{color.Flat-Gray.0}"
-      },
-      "Hover": {
-        "$type": "color",
-        "$value": "{color.Flat-Gray.25}"
-      },
-      "Default": {
-        "$type": "color",
-        "$value": "{color.Flat-Gray.0}"
+      "Strong": {
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.700}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.700}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.400}"
+        }
       }
     },
     "Neutral-Inversed": {
       "Normal": {
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.700}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Flat-Gray.100}"
+          "$value": "{color.Flat-Gray.25}"
         },
         "Preesed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Flat-Gray.200}"
+          "$value": "{color.Flat-Gray.50}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.50}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Flat-Gray.0}"
+          "$value": "{color.Flat-Gray.25}"
         },
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Flat-Gray.100}"
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Preesed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.700}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.25}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.50}"
         }
+      },
+      "Strong": {
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Transparent.White 4%}"
+        },
+        "Preesed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Tansparnt.White 8%}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Transparent.White 12%}"
+        },
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Transparent.White 4%}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Transparent.White 8%}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Transparent.White 8%}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Tansparnt.White 4%}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Tansparnt.White 12%}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Tansparnt.White 8%}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Tansparnt.White 8%}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Tansparnt.White 4%}"
+        },
+        "Preesed 2": {
+          "$type": "color",
+          "$value": "{color.Tansparnt.White 8%}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Transparent.White 8%}"
+        }
+      }
+    },
+    "Accent": {
+      "Kakao": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.Yellow.500}"
+      },
+      "Found Item": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.Blue.25}"
+      },
+      "Lost Item": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#fdf1ed"
+      },
+      "Found Item 2": {
+        "$type": "color",
+        "$value": "{color.Blue.25}"
+      },
+      "Lost Item 2": {
+        "$type": "color",
+        "$value": "{color.Orange.100}"
+      },
+      "Kakao 2": {
+        "$type": "color",
+        "$value": "{color.Yellow.500}"
+      },
+      "Lost Item2": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ffefad"
+      },
+      "found item": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ebfbf1"
+      },
+      "location": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#e6e6f9"
       }
     }
   },
   "[Fg]": {
     "Layout": {
       "Body": {
-        "Hover": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.600}"
-        },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.500}"
         },
-        "Pressed": {
+        "Default 2": {
           "$type": "color",
           "$value": "{color.Flat-Gray.500}"
-        },
-        "Focused": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.600}"
-        },
-        "Entered (+Selected)": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.700}"
-        },
-        "Disabled": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.200}"
         }
       },
       "Header": {
-        "Disabled": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.400}"
-        },
-        "Pressed": {
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.800}"
         },
-        "Focused": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.1000}"
-        },
-        "Hover": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.1000}"
-        },
-        "Entered (+Selected)": {
-          "$type": "color",
-          "$value": "{color.Flat-Gray.1000}"
-        },
-        "Default": {
+        "Default 2": {
           "$type": "color",
           "$value": "{color.Flat-Gray.800}"
         }
@@ -221,32 +816,171 @@
     "Neutral-Inversed": {
       "Normal": {
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.200}"
         },
         "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.400}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.600}"
         },
-        "Default": {
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.0}"
+        },
+        "Pressed 2": {
           "$type": "color",
           "$value": "{color.Flat-Gray.400}"
         },
-        "Focused": {
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.200}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.0}"
+        },
+        "Default 2": {
           "$type": "color",
           "$value": "{color.Flat-Gray.600}"
         },
-        "Entered (+Selected)": {
+        "Focused 2": {
           "$type": "color",
-          "$value": "{color.Flat-Gray.0}"
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
         }
       },
       "Strong": {
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.200}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.100}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.0}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.100}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.100}"
+        },
+        "Default 2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.25}"
         }
@@ -255,62 +989,238 @@
     "Neutral": {
       "Normal": {
         "Placeholder": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Flat-Gray.400}"
+          "$value": "{color.Flat-Gray.500}"
         },
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.1000}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.1000}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.400}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.600}"
         },
         "Preesed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.400}"
         },
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.1000}"
+        },
+        "Placeholder 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.600}"
+        },
+        "Preesed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
         }
       },
       "Strong": {
         "Preesed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.400}"
         },
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.1000}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.600}"
         },
         "Placeholder": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Flat-Gray.300}"
+          "$value": "{color.Flat-Gray.500}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.400}"
         },
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.1000}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.1000}"
+        },
+        "Preesed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.600}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.1000}"
+        },
+        "Placeholder 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
         }
       }
     },
@@ -318,54 +1228,410 @@
       "Subtle": {
         "Pressed": {
           "$type": "color",
-          "$value": "{color.Blue.100}"
+          "$value": "{color.Flat-Green.300}"
         },
         "Entered (+Selected)": {
           "$type": "color",
-          "$value": "{color.Blue.500}"
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "{color.Blue.500}"
-        },
-        "Focused": {
-          "$type": "color",
-          "$value": "{color.Blue.700}"
-        },
-        "Hover": {
-          "$type": "color",
-          "$value": "{color.Blue.700}"
-        },
-        "Disabled": {
-          "$type": "color",
-          "$value": "{color.Blue.75}"
-        }
-      },
-      "Normal": {
-        "Disabled": {
-          "$type": "color",
-          "$value": "{color.Blue.100}"
-        },
-        "Entered (+Selected)": {
-          "$type": "color",
-          "$value": "{color.Blue.0}"
-        },
-        "Focused": {
-          "$type": "color",
-          "$value": "{color.Blue.0}"
-        },
-        "Hover": {
-          "$type": "color",
-          "$value": "{color.Blue.0}"
+          "$value": "{color.Flat-Green.500}"
         },
         "Default": {
           "$type": "color",
           "$value": "{color.Flat-Green.500}"
         },
+        "Focused": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.600}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.600}"
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.200}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.200}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.300}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.500}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.600}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.600}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.500}"
+        }
+      },
+      "Normal": {
+        "Disabled": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Entered (+Selected)": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Focused": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Default": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
         "Pressed": {
           "$type": "color",
-          "$value": "{color.Blue.75}"
+          "$value": "{color.Flat-Green.200}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.200}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
         }
+      },
+      "normal": {
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.300}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.500}"
+        },
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.500}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.600}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.600}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.200}"
+        }
+      },
+      "subtle": {
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.0}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.200}"
+        }
+      },
+      "Strong(use this)": {
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.700}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.600}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.700}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.500}"
+        }
+      },
+      "Strong": {
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.700}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.700}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.800}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.500}"
+        }
+      }
+    },
+    "Accent": {
+      "Lost Item": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.Orange.500}"
+      },
+      "Found Item": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.Blue.200}"
+      },
+      "Lost Item 2": {
+        "$type": "color",
+        "$value": "{color.Orange.500}"
+      },
+      "Found Item 2": {
+        "$type": "color",
+        "$value": "{color.Blue.200}"
+      },
+      "Local Info": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "{color.Brick.800}"
       }
     }
   },
@@ -373,52 +1639,172 @@
     "Neutral": {
       "Normal": {
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.300}"
         },
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.400}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.300}"
         },
         "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.200}"
         },
         "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.200}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.200}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.200}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.300}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.300}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.200}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.400}"
+        },
+        "Disabled 2": {
           "$type": "color",
           "$value": "{color.Flat-Gray.200}"
         }
       },
-      "Strong !!!": {
-        "Pressed": {
-          "$type": "color",
-          "$value": "{color.Blue.75}"
-        },
-        "Entered (+Selected)": {
+      "Strong": {
+        "Entered (+Selected) 2": {
           "$type": "color",
           "$value": "{color.Blue.100}"
         },
-        "Disabled": {
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Blue.100}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Blue.75}"
+        },
+        "Default 2": {
           "$type": "color",
           "$value": "{color.Flat-Gray.200}"
         },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Blue.75}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Flat-Gray.200}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Blue.100}"
+        },
         "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Blue.100}"
         },
         "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Blue.75}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Gray.200}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Blue.75}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
           "$value": "{color.Flat-Gray.200}"
         }
@@ -426,75 +1812,468 @@
     },
     "Divider": {
       "Default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_COLOR"
+          ],
+          "com.figma.hiddenFromPublishing": true
+        },
         "$type": "color",
         "$value": "{color.Flat-Gray.100}"
+      },
+      "Default 2": {
+        "$type": "color",
+        "$value": "{color.Flat-Gray.100}"
+      },
+      "Default 3": {
+        "$type": "color",
+        "$value": "{color.Flat-Gray.50}"
       }
     },
     "Brand": {
       "Subtle": {
-        "Pressed": {
+        "Entered (+Selected) 2": {
           "$type": "color",
           "$value": "{color.Blue.100}"
         },
-        "Hover": {
+        "Focused 2": {
           "$type": "color",
           "$value": "{color.Blue.75}"
         },
-        "Focused": {
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Blue.50}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Blue.100}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Blue.50}"
+        },
+        "Hover 2": {
           "$type": "color",
           "$value": "{color.Blue.75}"
         },
         "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.50}"
+          "$value": "{color.Flat-Green.75}"
         },
-        "Disabled": {
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.50}"
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
         },
         "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
           "$type": "color",
-          "$value": "{color.Blue.100}"
+          "$value": "{color.Flat-Green.50}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.100}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Flat-Green.50}"
+        }
+      },
+      "Normal": {
+        "Default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Green.500}"
+        },
+        "Hover": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Green.600}"
+        },
+        "Focused": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Green.600}"
+        },
+        "Entered (+Selected)": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Green.400}"
+        },
+        "Pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Green.700}"
+        },
+        "Disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": true
+          },
+          "$type": "color",
+          "$value": "{color.Glass-Green.200}"
+        },
+        "Default 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.500}"
+        },
+        "Hover 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.600}"
+        },
+        "Focused 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.600}"
+        },
+        "Entered (+Selected) 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.400}"
+        },
+        "Pressed 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.700}"
+        },
+        "Disabled 2": {
+          "$type": "color",
+          "$value": "{color.Glass-Green.200}"
         }
       }
     }
   },
-  "[Bg]": {
-    "LNB": {
-      "$type": "color",
-      "$value": "{color.Blue.950}"
-    },
-    "None": {
-      "400": {
-        "$type": "color",
-        "$value": "{color.Navy.400}"
-      },
-      "500": {
-        "$type": "color",
-        "$value": "{color.Navy.500}"
-      },
-      "600": {
-        "$type": "color",
-        "$value": "{color.Navy.600}"
-      }
-    },
-    "Navigation": {
-      "$type": "color",
-      "$value": "{color.Gray.0}"
-    },
-    "Content": {
-      "$type": "color",
-      "$value": "{color.Gray.0}"
-    }
-  },
   "System": {
     "Success": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
       "$type": "color",
-      "$value": "{color.Green.500}"
+      "$value": "{color.Flat-Green.600}"
     },
     "Warning": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
       "$type": "color",
       "$value": "{color.Red.600}"
+    },
+    "Toast Success": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Green.300}"
+    },
+    "Toast Warning": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Orange.400}"
+    },
+    "Toast Success 3": {
+      "$type": "color",
+      "$value": "{color.Flat-Green.400}"
+    },
+    "Toast Warning 3": {
+      "$type": "color",
+      "$value": "{color.Orange.400}"
+    },
+    "Warning 3": {
+      "$type": "color",
+      "$value": "{color.Red.600}"
+    },
+    "Success 3": {
+      "$type": "color",
+      "$value": "{color.Flat-Green.600}"
+    },
+    "Bookmark": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Orange.400}"
+    },
+    "Favorite": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Red.500}"
+    },
+    "Unselected": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Gray.300}"
+    },
+    "Announcement": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Orange.500}"
+    },
+    "Report": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Red.500}"
+    }
+  },
+  "[Bg]": {
+    "Layout 1depth": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Gray.0}"
+    },
+    "Toast": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Glass-Gray.600}"
+    },
+    "Layout 2depth": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Gray.25}"
+    },
+    "Dim-transparent": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "#00000080"
+    },
+    "Dim-opaque": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Gray.800}"
+    },
+    "Layout 1depth 2": {
+      "$type": "color",
+      "$value": "{color.Flat-Gray.0}"
+    },
+    "Toast 2": {
+      "$type": "color",
+      "$value": "{color.Glass-Gray.600}"
+    },
+    "Dim-opaque 2": {
+      "$type": "color",
+      "$value": "{color.Flat-Gray.800}"
+    },
+    "Layout 2depth 2": {
+      "$type": "color",
+      "$value": "{color.Flat-Gray.25}"
+    },
+    "Dim-transparent 2": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "#7878781a"
+    },
+    "Dim-transparent 3": {
+      "$type": "color",
+      "$value": "#7878781a"
+    },
+    "Layout_brand": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Green.25}"
+    },
+    "Notification-blue": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Blue.200}"
+    },
+    "Notification-grey": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Gray.600}"
+    },
+    "Notification-yellow": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Orange.400}"
+    },
+    "Notification-brand": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Green.500}"
+    },
+    "Layout 3depth": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{color.Flat-Gray.50}"
     }
   }
 }
