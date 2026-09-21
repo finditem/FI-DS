@@ -15,7 +15,6 @@ permissions:
 
 env:
   NODE_VERSION: "20"
-  FE_REPO: "finditem/FI-FE"
   FE_TARGET_DIR: "src/utils/tokens" # ← FE에서 둘 위치
   PR_BRANCH: "chore/update-design-tokens"
   COMMIT_MSG: "chore(tokens): sync from FI-DS [skip ci]"
@@ -23,6 +22,12 @@ env:
 jobs:
   build-and-pr:
     runs-on: ubuntu-latest
+    # 같은 토큰 산출물을 운영 앱과 어드민 저장소에 각각 PR로 보낸다.
+    # 대상 저장소마다 FE_REPO_TOKEN이 쓰기 권한을 가져야 한다.
+    strategy:
+      fail-fast: false
+      matrix:
+        fe_repo: ["finditem/FI-FE", "finditem/admin"]
 
     steps:
       - name: Checkout DS
@@ -69,7 +74,7 @@ jobs:
       - name: Checkout FE
         uses: actions/checkout@v4
         with:
-          repository: ${{ env.FE_REPO }}
+          repository: ${{ matrix.fe_repo }}
           token: ${{ secrets.FE_REPO_TOKEN }}
           path: fe
 
@@ -95,7 +100,7 @@ jobs:
           base: develop
           title: "chore(tokens): sync from FI-DS"
           body: |
-            자동 동기화 — FI-DS → FI-FE
+            자동 동기화 — FI-DS → ${{ matrix.fe_repo }}
             - Style Dictionary 산출물 업데이트
           labels: "design-tokens, 🤖 automated"
           commit-message: ${{ env.COMMIT_MSG }}
