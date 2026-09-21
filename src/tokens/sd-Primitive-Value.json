@@ -1132,29 +1132,6 @@
         "$value": "#fee500"
       }
     },
-    "Tansparnt": {
-      "White 4%": {
-        "$extensions": {
-          "com.figma.hiddenFromPublishing": false
-        },
-        "$type": "color",
-        "$value": "#ffffff0a"
-      },
-      "White 8%": {
-        "$extensions": {
-          "com.figma.hiddenFromPublishing": false
-        },
-        "$type": "color",
-        "$value": "#ffffff14"
-      },
-      "White 12%": {
-        "$extensions": {
-          "com.figma.hiddenFromPublishing": false
-        },
-        "$type": "color",
-        "$value": "#ffffff1f"
-      }
-    },
     "Transparent": {
       "White 4%": {
         "$extensions": {
