@@ -15,6 +15,7 @@ permissions:
 
 env:
   NODE_VERSION: "20"
+  FE_OWNER: "finditem"
   FE_TARGET_DIR: "src/utils/tokens" # ← FE에서 둘 위치
   PR_BRANCH: "chore/update-design-tokens"
   COMMIT_MSG: "chore(tokens): sync from FI-DS [skip ci]"
@@ -23,11 +24,11 @@ jobs:
   build-and-pr:
     runs-on: ubuntu-latest
     # 같은 토큰 산출물을 운영 앱과 어드민 저장소에 각각 PR로 보낸다.
-    # 대상 저장소마다 FE_REPO_TOKEN이 쓰기 권한을 가져야 한다.
+    # 커밋과 PR은 finditem-bot App 명의로 생성된다.
     strategy:
       fail-fast: false
       matrix:
-        fe_repo: ["finditem/FI-FE", "finditem/admin"]
+        fe_repo: ["FI-FE", "admin"]
 
     steps:
       - name: Checkout DS
@@ -71,11 +72,21 @@ jobs:
             echo "::warning::No tailwind.config.js under src/tokens; skipping PR."
           fi
 
+      # 대상 저장소에 쓸 수 있는 App 설치 토큰 발급 (1시간 유효)
+      - name: Create app token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ env.FE_OWNER }}
+          repositories: ${{ matrix.fe_repo }}
+
       - name: Checkout FE
         uses: actions/checkout@v4
         with:
-          repository: ${{ matrix.fe_repo }}
-          token: ${{ secrets.FE_REPO_TOKEN }}
+          repository: ${{ env.FE_OWNER }}/${{ matrix.fe_repo }}
+          token: ${{ steps.app-token.outputs.token }}
           path: fe
 
       - name: Sync artifacts into FE
@@ -95,16 +106,18 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           path: fe
-          token: ${{ secrets.FE_REPO_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           branch: ${{ env.PR_BRANCH }}
           base: develop
           title: "chore(tokens): sync from FI-DS"
           body: |
-            자동 동기화 — FI-DS → ${{ matrix.fe_repo }}
+            자동 동기화 — FI-DS → ${{ env.FE_OWNER }}/${{ matrix.fe_repo }}
             - Style Dictionary 산출물 업데이트
           labels: "design-tokens, 🤖 automated"
           commit-message: ${{ env.COMMIT_MSG }}
-          signoff: true
+          committer: "finditem-bot[bot] <289664574+finditem-bot[bot]@users.noreply.github.com>"
+          author: "finditem-bot[bot] <289664574+finditem-bot[bot]@users.noreply.github.com>"
+          signoff: false
           delete-branch: false
           add-paths: |
             ${{ env.FE_TARGET_DIR }}/tailwind.config.js
