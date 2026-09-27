@@ -333,7 +333,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.700}"
+          "$value": "{color.Flat-Green.600}"
         },
         "Hover": {
           "$extensions": {
@@ -343,7 +343,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.800}"
+          "$value": "{color.Flat-Green.700}"
         },
         "Focused": {
           "$extensions": {
@@ -353,7 +353,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.800}"
+          "$value": "{color.Flat-Green.700}"
         },
         "Entered (+Selected)": {
           "$extensions": {
@@ -363,7 +363,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.700}"
+          "$value": "{color.Flat-Green.600}"
         },
         "Pressed": {
           "$extensions": {
@@ -373,7 +373,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.800}"
+          "$value": "{color.Flat-Green.700}"
         },
         "Disabled": {
           "$extensions": {
@@ -383,7 +383,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.400}"
+          "$value": "{color.Flat-Green.300}"
         }
       }
     },
@@ -534,26 +534,6 @@
         "$type": "color",
         "$value": "{color.Blue.25}"
       },
-      "Lost Item": {
-        "$extensions": {
-          "com.figma.scopes": [
-            "FRAME_FILL"
-          ],
-          "com.figma.hiddenFromPublishing": false
-        },
-        "$type": "color",
-        "$value": "#fdf1ed"
-      },
-      "found item": {
-        "$extensions": {
-          "com.figma.scopes": [
-            "ALL_SCOPES"
-          ],
-          "com.figma.hiddenFromPublishing": false
-        },
-        "$type": "color",
-        "$value": "#ebfbf1"
-      },
       "location": {
         "$extensions": {
           "com.figma.scopes": [
@@ -563,6 +543,38 @@
         },
         "$type": "color",
         "$value": "#e6e6f9"
+      },
+      "Lost btn": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#fdf1ed"
+      },
+      "Found btn": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ebfbf1"
+      }
+    },
+    "Base": {
+      "White": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ffffff"
       }
     }
   },
@@ -1118,7 +1130,7 @@
             "com.figma.hiddenFromPublishing": false
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.700}"
+          "$value": "{color.Flat-Green.600}"
         },
         "Hover": {
           "$extensions": {
@@ -1128,7 +1140,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.800}"
+          "$value": "{color.Flat-Green.700}"
         },
         "Focused": {
           "$extensions": {
@@ -1138,7 +1150,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.800}"
+          "$value": "{color.Flat-Green.700}"
         },
         "Entered (+Selected)": {
           "$extensions": {
@@ -1148,7 +1160,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.700}"
+          "$value": "{color.Flat-Green.600}"
         },
         "Pressed": {
           "$extensions": {
@@ -1158,7 +1170,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.800}"
+          "$value": "{color.Flat-Green.700}"
         },
         "Disabled": {
           "$extensions": {
@@ -1168,7 +1180,7 @@
             "com.figma.hiddenFromPublishing": true
           },
           "$type": "color",
-          "$value": "{color.Flat-Green.500}"
+          "$value": "{color.Flat-Green.300}"
         }
       }
     },

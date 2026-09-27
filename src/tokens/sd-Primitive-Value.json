@@ -1256,6 +1256,18 @@
         "$type": "color",
         "$value": "#be391c"
       }
+    },
+    "Base": {
+      "white": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ffffff"
+      }
     }
   },
   "Value": {
@@ -1462,15 +1474,5 @@
       "$type": "number",
       "$value": 320
     }
-  },
-  "BaseColor": {
-    "$extensions": {
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.hiddenFromPublishing": false
-    },
-    "$type": "color",
-    "$value": "#ffffff"
   }
 }
